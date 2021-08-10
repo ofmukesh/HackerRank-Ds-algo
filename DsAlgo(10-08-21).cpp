@@ -1,4 +1,4 @@
-                                                    //Date:10/08/2021//
+                                                        //Date:10/08/2021//
 //Q.1//
 
 int main()
@@ -69,4 +69,44 @@ int main() {
    print his/her name; else call him/her for fill name;
    End.
 */
+
+//Q.3//
+
+
+int main() {
+    
+    int marks;
+    marks= 9;
+    int  age ;
+    age= 15;
+    int a=0;
+    int b=0;
+    int c=0;
+    if (marks<9&&age<15){
+        a= 1500;
+    }
+    if (marks>9&&age<15){
+        b=2000;
+    }
+    if (marks<6&&age>13){
+        c=1000;
+    }
+    cout<<"a="<<a<<endl;
+    cout<<"b="<<b<<endl;
+    cout<<"c="<<c<<endl;
+    int total ;
+    total = a+b+c;
+    cout<<"total=";
+    cout<<total;
+    
+    
+    return 0;
+}
+
+
+/*
+*/
+
+
+
 
