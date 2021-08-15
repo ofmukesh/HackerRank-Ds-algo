@@ -20,4 +20,22 @@
 
     sum=21;
 
+//Q.5//
+int main(){
+vector<int> b;
+    vector<int> rArr;
+    b={};
+    rArr={};
+    for(int i = 0 ; i<a.size();i++){
+    b.push_back(a[i]);
+    
+    }
+    for(int j = b.size()-1;j>=0;j--){
+        rArr.push_back(b[j]);
+    }
+    return aArr;
+    }
+
+
+
     */
