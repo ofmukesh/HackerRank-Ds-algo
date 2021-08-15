@@ -1,4 +1,4 @@
-                                                     //Date:10/08/2021//
+/*                                                     //Date:10/08/2021//
 //Q.1//
 
 int main()
@@ -28,7 +28,7 @@ int main()
     return 0;
 }
 
-/*Firstly defined a variable ,
+Firstly defined a variable ,
   this veriable value is integer(number) ;
   after this, a if/else statement added ;
   the condition of 1st(if/else) is that;
@@ -44,7 +44,7 @@ int main()
   if the condtion is false 
   >print "!Poor Man! go to home.." 
   End..
-*/
+
 
 //Q.2//
 
@@ -64,45 +64,45 @@ int main() {
     return 0;
 }
 
-/* Firstly get a input from user that is his/her name, store to a veriable;
+ Firstly get a input from user that is his/her name, store to a veriable;
    then if/else add; the condition of this ,is that if the user fill the name so
    print his/her name; else call him/her for fill name;
    End.
-*/
+
 
 //Q.3//
 
+int main()
+{
 
-int main() {
-    
     int marks;
-    marks= 9;
-    int  age ;
-    age= 15;
-    int a=0;
-    int b=0;
-    int c=0;
-    if (marks<9&&age<15){
-        a= 1500;
+    marks = 9;
+    int age;
+    age = 15;
+    int a = 0;
+    int b = 0;
+    int c = 0;
+    if (marks < 9 && age < 15)
+    {
+        a = 1500;
     }
-    if (marks>9&&age<15){
-        b=2000;
+    if (marks > 9 && age < 15)
+    {
+        b = 2000;
     }
-    if (marks<6&&age>13){
-        c=1000;
+    if (marks < 6 && age > 13)
+    {
+        c = 1000;
     }
-    cout<<"a="<<a<<endl;
-    cout<<"b="<<b<<endl;
-    cout<<"c="<<c<<endl;
-    int total ;
-    total = a+b+c;
-    cout<<"total=";
-    cout<<total;
-    
-    
+    cout << "a=" << a << endl;
+    cout << "b=" << b << endl;
+    cout << "c=" << c << endl;
+    int total;
+    total = a + b + c;
+    cout << "total=";
+    cout << total;
+
     return 0;
 }
 
-
-/*
 */
