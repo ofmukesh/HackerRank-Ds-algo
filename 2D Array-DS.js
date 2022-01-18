@@ -1,6 +1,6 @@
 
 function hourglassSum(arr) {
-    var list =[];
+    var list =[ ];
     for(var i=0;i<4;i++){
         for(var j=0;j<4;j++){
             var top= arr[i][j]+arr[i][j+1]+arr[i][j+2];
